@@ -1,0 +1,46 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar dependencias de producción
+dist/
+
+# Ignorar archivos de configuración de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar la carpeta del wallet
+wallet.json
+
+# Ignorar TypeScript compilados
+*.tsbuildinfo
+
+# Ignorar carpetas de caché
+.cache/
+.next/
+.nuxt/
+
+# Ignorar IDEs/editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar otros archivos y carpetas que no quieras subir
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de sistema
+/.env
+/.env.local
+/.env.*.local
+/.sass-cache/
+*.pid
+*.seed
+*.log
+*.log.*
