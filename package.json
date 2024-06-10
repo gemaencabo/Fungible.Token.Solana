@@ -1,0 +1,30 @@
+{
+  "name": "Fungible.Token.Solana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gemaencabo/Fungible.Token.Solana.git",
+  "author": "Shaktigema <gema.novo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "keypairgen": "ts-node keypairgen.ts",
+    "airdrop": "ts-node airdrop.ts",
+    "transfer": "ts-node transfer.ts",
+    "createMint": "ts-node spl_init.ts",
+    "mintToken": "ts-node spl_mint.ts",
+    "transferToken": "ts-node spl_transfer.ts",
+    "uploadImage": "ts-node uploadImage.ts",
+    "splMetadata": "ts-node spl_Metadata.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.2",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
